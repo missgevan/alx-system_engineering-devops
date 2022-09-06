@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}-{a..z} | tr -d oo
+file $({a..z}{a..z} | tr -d oo )
